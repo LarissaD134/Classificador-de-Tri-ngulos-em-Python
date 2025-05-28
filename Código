@@ -1,0 +1,14 @@
+x = int(input('Digite o lado a do triângulo: '))
+y = int(input('Digite o lado b do triângulo: '))
+z = int(input('Digite o lado c do triângulo: '))
+
+if((x > 0) and (y > 0) and (z > 0) and (x + y > z) and (x + z > y) and (z + y > x)):
+    if (x != y and x != z and y != z):
+        print('O triângulo é Escaleno')
+    else:
+        if (x == y and x == z and y == z):
+            print('O triângulo é Equilátero')
+        else:
+            print('O triângulo é Isósceles')
+else:
+    print('Ao menos um dos valores indicados não servem para formar um triângulo')
