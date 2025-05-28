@@ -1,1 +1,1 @@
-# Classificador-de-Tri-ngulos-em-Python
+# Classificador-de-Triangulos-em-Python
