@@ -11,10 +11,4 @@ Este é um projeto simples em Python que recebe três valores correspondentes ao
 - **Isósceles:** Dois lados iguais e um diferente.
 - **Escaleno:** Todos os lados diferentes.
 
-## ▶️ Como executar:
-1. Tenha Python instalado em seu computador.
-2. Baixe o arquivo `classificador_triangulo.py`.
-3. No terminal, execute:
 
-```bash
-python classificador_triangulo.py
